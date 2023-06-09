@@ -1,0 +1,71 @@
+
+.c__texto {
+    padding: 80px;
+
+    &--style {
+        padding: 15px;
+        border: 3px solid black;
+    }
+}
+
+.membresias {
+    text-align: center;
+    padding: 10px;
+
+    &__titulo {
+        font-size: 3rem; 
+        color: black;
+    }
+
+    &__titulo--style {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+    }
+}
+
+.card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 50px;
+
+
+        &__style{
+            padding: 50px;
+            background-color: #1746d1;
+            border-radius: 20px;
+            border: 3px solid black;
+        }
+
+        &__titulo {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        &__texto {
+            padding: 5px;
+        }
+
+        &__subtitulo {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+
+
+.video {
+    padding: 10px;
+
+    &__titulo {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    &__titulo--style {
+        color: black;
+        list-style-type: none;
+        text-decoration: none;
+    }
+}
+

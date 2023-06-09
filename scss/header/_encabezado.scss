@@ -1,0 +1,45 @@
+.encabezado {
+    width: auto;
+    height: auto;
+}
+
+.h__imagen {
+    text-align: center;
+
+    &--style {
+    width: 250px;
+    height: 250px;
+    }
+}
+
+.menu {
+
+    &__style {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    &__lista {
+        background-color: #1746d1;
+        font-size: 1.2rem;
+        padding: 7px;
+        border-radius: 1px 20px;
+    }
+
+    &__lista:hover {
+        background-color: gray;
+        box-shadow: inset -5px -5px  black;
+    }
+
+    &__lista--style {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+}
+}
+
+

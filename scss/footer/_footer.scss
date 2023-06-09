@@ -1,0 +1,21 @@
+.pie {
+    background-color: rgb(56, 9, 9);
+}
+
+.grid__footer {
+    display: grid;
+    grid-template-areas: "redes" "texto";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.redes {
+    grid-area: "redes";
+    background-color: aquamarine;
+}
+
+.p__texto {
+    grid-area: "texto";
+    background-color: violet;
+}
+
