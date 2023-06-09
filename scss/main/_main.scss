@@ -29,6 +29,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         padding: 50px;
+        
 
 
         &__style{
@@ -36,6 +37,11 @@
             background-color: #1746d1;
             border-radius: 20px;
             border: 3px solid black;
+            box-shadow: 5px 5px 5px black;
+        }
+
+        &__style:hover {
+            background-color: gray;
         }
 
         &__titulo {
