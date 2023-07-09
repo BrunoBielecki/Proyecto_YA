@@ -1,0 +1,218 @@
+@media screen and (max-width:600px) {
+    //Header
+        .menu {
+    
+            &__style {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                gap: 10px;
+            }
+        
+            &__lista {
+                text-align: center;
+                background-color: #1746d1;
+                font-size: 1.2rem;
+                padding: 7px;
+                border-radius: 1px 20px;
+                width: 50%;
+            }
+        
+            &__lista:hover {
+                background-color: gray;
+                box-shadow: inset -5px -5px  black;
+            }
+        
+            &__lista--style {
+                text-decoration: none;
+                list-style-type: none;
+                color: black;
+        }
+        }
+    
+    //Main
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            gap: 10px;
+        
+    
+    
+            &__style{
+                width: 70%;
+                padding: 50px;
+                background-color: #1746d1;
+                border-radius: 20px;
+                border: 3px solid black;
+                box-shadow: 5px 5px 5px black;
+            }
+    
+            &__style:hover {
+                background-color: gray;
+            }
+    
+            &__titulo {
+                font-size: 2rem;
+                text-align: center;
+            }
+    
+            &__texto {
+                padding: 5px;
+            }
+    
+            &__subtitulo {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+@media screen and (max-width:480px) {
+    //Header
+        .menu {
+    
+            &__style {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                gap: 10px;
+            }
+        
+            &__lista {
+                text-align: center;
+                background-color: #1746d1;
+                font-size: 1.2rem;
+                padding: 7px;
+                border-radius: 1px 20px;
+                width: 50%;
+            }
+        
+            &__lista:hover {
+                background-color: gray;
+                box-shadow: inset -5px -5px  black;
+            }
+        
+            &__lista--style {
+                text-decoration: none;
+                list-style-type: none;
+                color: black;
+        }
+        }
+    
+    //Main
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            gap: 10px;
+        
+    
+    
+            &__style{
+                width: 80%;
+                padding: 50px;
+                background-color: #1746d1;
+                border-radius: 20px;
+                border: 3px solid black;
+                box-shadow: 5px 5px 5px black;
+            }
+    
+            &__style:hover {
+                background-color: gray;
+            }
+    
+            &__titulo {
+                font-size: 2rem;
+                text-align: center;
+            }
+    
+            &__texto {
+                padding: 5px;
+            }
+    
+            &__subtitulo {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+@media screen and (max-width:320px) {
+//Header
+    .menu {
+
+        &__style {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+        }
+    
+        &__lista {
+            text-align: center;
+            background-color: #1746d1;
+            font-size: 1.2rem;
+            padding: 7px;
+            border-radius: 1px 20px;
+            width: 50%;
+        }
+    
+        &__lista:hover {
+            background-color: gray;
+            box-shadow: inset -5px -5px  black;
+        }
+    
+        &__lista--style {
+            text-decoration: none;
+            list-style-type: none;
+            color: black;
+    }
+    }
+
+//Main
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        gap: 10px;
+    
+
+
+        &__style{
+            width: 100%;
+            padding: 50px;
+            background-color: #1746d1;
+            border-radius: 20px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px black;
+        }
+
+        &__style:hover {
+            background-color: gray;
+        }
+
+        &__titulo {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        &__texto {
+            padding: 5px;
+        }
+
+        &__subtitulo {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+}
