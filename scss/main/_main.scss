@@ -20,11 +20,15 @@
         background-color: #1746d1;
         border: black 1px solid;
         border-left: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     &__texto--style{
         padding: 2%;
-        text-align: justify;
+        text-align: center;
+        align-content: center;
     }
 }
 
@@ -76,8 +80,9 @@
         &__subtitulo {
             text-align: center;
             font-size: 1.5rem;
+            padding-top: 5px;
         }
-    }
+}
 
 
 .video {
